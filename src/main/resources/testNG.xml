@@ -1,0 +1,8 @@
+<suite name="EmptyBase" verbose="1" >
+    <parameter name = "browser" value = "Chrome"/> // Base test kısmında önce testngxml ile tanımlamıştım browserı o yüzden burada
+    <test name="EmptyBaseTest" >
+        <classes>
+            <class name="testRunners.runner" />
+        </classes>
+    </test>
+</suite>
